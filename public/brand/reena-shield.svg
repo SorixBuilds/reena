@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 142" width="120" height="142" fill="none">
+  <title>Reena</title>
+  <defs>
+    <linearGradient id="nv" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#32519F"/>
+      <stop offset="1" stop-color="#223A7E"/>
+    </linearGradient>
+  </defs>
+  <path d="M12 30 L30 8 L90 8 L108 30 L108 68 C108 100 92 120 60 134 C28 120 12 100 12 68 Z" fill="url(#nv)"/>
+  <path d="M20 33.5 L33.5 16 L86.5 16 L100 33.5 L100 67 C100 95 86 112 60 124.5 C34 112 20 95 20 67 Z" fill="#FFFFFF"/>
+  <path d="M27 36.5 L36.5 24 L83.5 24 L93 36.5 L93 66 C93 90 82 105 60 116 C38 105 27 90 27 66 Z" fill="#C8232B"/>
+  <g stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M41 44 V 92"/>
+    <path d="M54 92 V 44"/>
+    <path d="M54 44 H 68 C 78 44 82 49 82 56.5 C 82 64 78 69 68 69 H 54"/>
+    <path d="M66 69 L 81 92"/>
+  </g>
+  <g stroke="#C8232B" stroke-width="4.4" stroke-linecap="butt" stroke-linejoin="round">
+    <path d="M41 44 V 92"/>
+    <path d="M54 92 V 44"/>
+    <path d="M54 44 H 68 C 78 44 82 49 82 56.5 C 82 64 78 69 68 69 H 54"/>
+    <path d="M66 69 L 81 92"/>
+  </g>
+</svg>

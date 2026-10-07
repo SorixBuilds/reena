@@ -1,0 +1,14 @@
+# Normalise to LF in the repo — the site is built on Linux (Netlify)
+* text=auto eol=lf
+
+# Binary assets must never be line-ending converted
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.avif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.mp4 binary
+*.pdf binary
