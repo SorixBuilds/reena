@@ -79,8 +79,10 @@ export default function ProductSpotlight() {
 
   return (
     <section ref={root} className="relative bg-navy-900" aria-labelledby="spot-h2">
+      {/* clamped to the viewport: this section has no clipping ancestor, so a fixed
+          700px would widen the page on small phones */}
       <div
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[700px] -translate-x-1/2 -translate-y-1/2 opacity-25"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-[700px] w-[min(700px,100vw)] -translate-x-1/2 -translate-y-1/2 opacity-25"
         style={{
           background:
             "radial-gradient(circle, rgba(110,139,255,.4) 0%, transparent 65%)",

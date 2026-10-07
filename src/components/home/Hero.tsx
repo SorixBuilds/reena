@@ -199,8 +199,10 @@ export default function Hero() {
   return (
     <section
       ref={root}
-      className="relative isolate flex min-h-[640px] w-full flex-col justify-end overflow-hidden bg-night"
-      style={{ height: "100svh" }}
+      className="relative isolate flex min-h-[600px] w-full flex-col justify-end overflow-hidden bg-night"
+      /* min-height, not height: on a short or narrow phone the copy can exceed the
+         viewport, and a fixed height pushes it up underneath the fixed header */
+      style={{ minHeight: "100svh" }}
       aria-label="Reena — steady power"
     >
       {/* media */}
@@ -269,7 +271,7 @@ export default function Hero() {
 
       {/* content */}
       <div
-        className="js-hero-content shell relative z-10 pb-[100px] pt-[88px] md:pb-[116px] md:pt-[100px]"
+        className="js-hero-content shell relative z-10 pb-[100px] pt-[104px] md:pb-[116px] md:pt-[116px]"
         onTouchStart={(e) => {
           touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
         }}
